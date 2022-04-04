@@ -1,2 +1,2 @@
 # Vallhal
-Library-Text Website 
+Library-Text Website for Norse Mythology and Culture
