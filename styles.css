@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Montserrat:wght@600&display=swap");
+
+body,
+ul,
+li,
+h1,
+h2,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+header h1 {
+  font-size: 45px;
+  font-family: "IM Fell English SC", serif;
+}
+
+nav {
+  background-color: #000000;
+  padding: 0px;
+  position: sticky;
+  top: 85px;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav ul li {
+  width: 15%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 1px;
+  padding-bottom: 20px;
+  position: relative;
+}
+nav ul li:hover {
+  background-color: #e2e2e2;
+  color: black;
+}
+
+nav li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #888888;
+}
+nav li:hover a {
+  color: #000000;
+  background-color: #e2e2e2;
+}
+
+nav li.curr {
+  color: rgb(255, 255, 255);
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  background-color: #e2e2e2;
+  width: 100%;
+  align-items: left;
+}
+.dropdown li a {
+  padding: 12px 14px;
+}
+
+.banner {
+  position: relative;
+  top: 5px;
+  left: 0;
+}
+
+.banner img {
+  width: auto;
+
+  left: 0;
+}
+
+.banner .welcome {
+  background-color: #272727;
+  color: white;
+  padding: 30px;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.banner h2 {
+  font-size: 75px;
+  font-family: "IM Fell English SC", serif;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+article {
+  margin: 0 200px;
+}
+
+article h2 {
+  font-size: 57px;
+  font-family: "IM Fell English SC", serif;
+}
+article h4 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+article p {
+  line-height: 2em;
+  font-size: 1.2em;
+  color: #292929;
+  font-family: "Montserrat", sans-serif;
+}
+
+.images {
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+
+.images li {
+  display: inline-block;
+  width: 60%;
+  margin: 20px 5%;
+}
+
+.images li img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #e2e2e2;
+}
